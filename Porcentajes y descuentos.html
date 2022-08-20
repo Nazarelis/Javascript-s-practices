@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de Descuentos | Curso Platzi</title>
+</head>
+<body>
+    <header>
+        <h1>Calculador de Descuentos</h1>
+
+    </header>
+
+    <section>
+        <h2>Calcula el precio a pagar de tus productos con descuentos</h2>
+
+        <form>
+            <label for="inputPrecio">
+                Escribe el precio de tu producto
+            </label>
+            <input type="number" id="inputPrecio">
+
+            <label for="inputDescuento">
+                Escribe el descuento de tu producto
+            </label>
+            <input type="number" id="inputDescuento">
+            
+            <button type="button" onclick="botonDeCalculo()">
+                Calcular precio final
+            </button>
+            <p id="resultadoPrecio" ></p>
+        </form>
+
+    </section>
+
+    <script src="./Descuentos.js"></script>
+</body>
+</html>
